@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Minder</string>
+    <string name="default_web_client_id">370822244538-is1i1qjf5md3r1pqnkt3jk74g8ut7j4v.apps.googleusercontent.com</string>
+    <string name="login_title">Sign In as %1$s</string>
+</resources>

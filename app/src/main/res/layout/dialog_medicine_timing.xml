@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvTimingDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Timings"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/cbMorning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Morning" />
+
+    <CheckBox
+        android:id="@+id/cbAfternoon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Afternoon" />
+
+    <CheckBox
+        android:id="@+id/cbEvening"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Evening" />
+
+    <CheckBox
+        android:id="@+id/cbNight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Night" />
+
+</LinearLayout>
